@@ -1,2 +1,2 @@
-repository by iiris testing
-testing changes
+@irinasgenbacheva as a main contributor
+@Zoia Rassadkinae as a code reviewer
