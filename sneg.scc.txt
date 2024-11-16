@@ -1,0 +1,36 @@
+.visually-hidden {
+  clip: rect (0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white=space: nowrap;
+  width: 1px;
+}
+.inner-block-wrap {margin-bottom: 20px;}
+input:required {border-color: green;}
+input:focus {background-color: blue;}
+input:valid {background-color: green;}
+input:invalid {background-color: red;}
+
+.radio-label::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid grey;
+  border-radius: 50px;
+  background-colors: black;
+  box-sizing: border-box;
+}
+.radio-input:checked + .radio-label::before {
+  border: 4px solid blue;
+}
+.form-switcher_box span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  }
+.form-switcher_input

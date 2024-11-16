@@ -1,0 +1,57 @@
+<header>
+  <a href=""><img src="" alt=""></a>
+</header>
+<section>
+  <div class="catalog"></div>
+  <div>
+    <article class="catalog-item">
+      <img src="" alt="" class="catalog-image">
+      <p class="catalog-price">$199</p>
+      <p class="catalog-description">Name product</p>
+  </div>
+
+</section>
+
+<form>
+  <div>
+    <label>
+      Name
+      <input type='text' name='name' </label>
+  </div>
+  <div>
+    <label> Last name
+      <input type='text' name='lastname' </label>
+  </div>
+  <div>
+    <label>
+      Date of birth
+      <input type='date' required min='2020-01-01' name='dateofbirth' </label>
+  </div>
+  <div class='inner-block-wrap'>
+    <input type='radio' class='radio-input' name='gender' value='male' id='male'>
+    <label for='male-id'>male</label>
+    <input type='radio' class='radio-input' name='gender' value='female' id='female-id'>
+    <label for='female-id'>female</label>
+  </div>
+  <div>
+    <div class='inner-block-wrap'>
+      <label for='emale-id'>Email</label>
+      <input type='email' name='email' id='email-id' />
+    </div>
+    <div>
+      <div class='inner-block-wrap'>
+        <label for='phone-id'>Phone Number</label>
+        <input type='phone' required placeholder='Enter your number' name='phone' id='phone-id' required />
+      </div>
+      <div>
+        <div class='inner-block-wrap'>
+          <label for='message-id'>Message</label>
+          <textarea name='message' placeholder='Enter your message' id='textaria-id'></textarea>
+        </div>
+        <div>
+          <div class='inner-block-wrap'>
+            <label for='checkbox-id'> By clicking on the the 'Send message' button I agree to <span>all the terms of the security policy </span></label>
+            <input type='checkbox' name='terms'>
+          </div>
+          <button type='submit'> Send Message </button>
+</form>
