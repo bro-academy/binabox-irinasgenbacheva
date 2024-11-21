@@ -1,2 +1,2 @@
 @irinasgenbacheva as a main contributor
-@Zoia Rassadkinae as a code reviewer
+@zzoysanna as a code reviewer
